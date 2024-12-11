@@ -12,7 +12,10 @@
       {
         "id": "pf2e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "11",
+          "maximum": "12"
+        }
       }
     ]
   },
