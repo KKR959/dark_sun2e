@@ -1,0 +1,52 @@
+{
+  "id": "dark-sun-pathfinder-2e",
+  "title": "Dark Sun Pathfinder 2e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Ancestry, Heritage, Feats and more for Dark Sun",
+  "authors": [
+    {
+      "name": "Shawn Bowman",
+      "email": "shawnpaulbowman75@gmail.com",
+      "discord": "valsavus",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "dark-sun-characters",
+      "label": "Dark Sun Characters",
+      "path": "packs/dark-sun-characters",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dark-sun-journal",
+      "label": "Dark Sun Journal",
+      "path": "packs/dark-sun-journal",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
